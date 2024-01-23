@@ -1,0 +1,105 @@
+.cart-card{
+    width: 40rem;
+    height: 24rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+}
+/* upper */
+.cart-card-upper {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.cart-card-upper img{
+    height: 100%;
+    width: 40%;
+    object-fit: cover;
+    padding: 1rem;
+}
+.cart-card-details {
+    padding: 1rem;
+}
+.cart-card-details h3{
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+.cart-card-details .desc{
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    color: grey;
+}
+.cart-card-details  .cart-price-details{
+    display: flex;
+    gap: 1.5rem;
+}
+.cart-price-details p{
+    font-size: 1.4rem;
+    margin:  0.5rem; ;
+}
+.cart-price-details p::before{
+    content: "\20B9";
+}
+.cart-price-details p:first-of-type{
+    font-weight: bold;
+}
+.cart-price-details p:last-of-type{
+    font-weight: 500;
+    color: grey;
+    text-decoration: line-through;
+}
+.qty-actions{
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.qty-actions button{
+    cursor: pointer;
+    height: 4rem;
+    width: 4rem;
+    text-align: center;
+    border-radius: 50%;
+    outline: none;
+    background: none;
+    font-size: 1.5rem;
+    color: var(--color-primary);
+    border: 0.1rem solid var(--color-primary);
+    transition: all .3s;
+}
+.qty-actions button:hover{
+    background-color: var(--color-primary);
+    color: white;
+}
+.qty-actions p{
+    font-size: 2.5rem;
+}
+/* lower */
+.cart-card-lower{
+    width: 100%;
+    border-top: 0.1px solid lightgray;
+    display: flex;
+    padding: 1rem;
+    justify-content: space-evenly;
+    gap: 5rem;
+}
+.cart-card-lower button{
+    cursor: pointer;
+    height: 3rem;
+    border: none;
+    background: none;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    transition: all .3s;
+}
+.cart-card-lower button:first-of-type:hover{
+    color: var( --color-grey);
+}
+.cart-card-lower button:last-of-type{
+    color: var(--color-secondary);
+}
+.cart-card-lower button:last-of-type:hover{
+    color: var(--secondary-dark);
+}

@@ -1,0 +1,54 @@
+.navbar{
+    background-color: var(--color-primary);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    transition: box-shadow 0.3s ease;
+}
+.navbar.shadow {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    backdrop-filter: blur(1rem); 
+    opacity: 0.98; 
+}
+.navbar .wrapper{
+    height: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem;
+}
+
+.navbar-link{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.navbar-link h4{
+    font-size: 2rem;
+    color: white;
+    font-weight: 400;
+    letter-spacing: 0.2rem;
+}
+.navbar-link svg{
+    fill: white;
+}
+
+.navbar-menus{
+    font-family: 'Maven Pro', sans-serif;
+    color: white;
+    display: flex;
+    gap: 4rem;
+}
+
+.navbar-menus .options{
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 2.5rem;
+    letter-spacing: 0.2rem;
+    color: white;
+    font-size: 500;
+}
+
+

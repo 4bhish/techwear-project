@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  font-size: 10px;
+  font-family: 'Open Sans', sans-serif;
+  --color-primary:#ab82f3;
+  --color-secondary:#38a5ff;
+  --color-grey:#76879d;
+  --secondary-dark:#1f39e1;
+  --poweder-blue:#e3f6ff;
+  --footer-bg:#5c6d82;
+}
+

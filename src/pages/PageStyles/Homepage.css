@@ -1,0 +1,69 @@
+.category-heading{
+    margin-top: 0.5rem;
+    background-color: var(--poweder-blue);
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+.category-heading-container{
+    text-align: center;
+}
+.category-heading-container h1{
+    font-size: 5rem;
+    letter-spacing: 0.1rem;
+    margin-bottom: 1.5rem;
+}
+.category-heading-container p{
+    font-size: 2rem;
+    color: var(--color-grey);
+}
+
+/* categories-container */
+.categories-container{
+    margin-bottom: 2rem;
+    cursor: pointer;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+    gap: 2rem;
+    height: auto;
+}
+.categories-container .category-image-container {
+    flex: 0.3;
+    position: relative;
+}
+
+.categories-container  .category-image-container img{
+    width: 100%;
+    height: 40rem;
+    object-fit: contain;
+}
+
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7); /* Adjust the darkness by changing the alpha value */
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.overlay h2{
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    color: var(--color-primary);
+}
+.category-image-container:hover .overlay {
+    opacity: 1;
+  }

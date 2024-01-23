@@ -1,0 +1,93 @@
+.footer{
+    width: 100%;
+    height: 30vh;
+    background-color: var(--footer-bg);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-container{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.footer-para h3{
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+}
+.footer-para p{
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+}
+.footer-para p span{
+    color: var(--color-primary);
+    font-size: 2rem;
+}
+.footer-para p:first-of-type{
+    margin-top: 1rem;
+}
+.footer-para small{
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+}
+/* footer connect */
+.footer-connect h3{
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+}
+.footer-connect .social-connect{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+    cursor: pointer;
+    transition: all .3s;
+    color: white;
+    text-decoration: none;
+}
+.social-connect p{
+    font-size: 1.5rem;
+}
+.social-connect:hover{
+    color: var(--color-primary);
+}
+.social-connect .social-connect-icon{
+    font-size: 3rem;
+}
+.footer-resource h3{
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+}
+
+.footer-login {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+    cursor: pointer;
+    color: white;
+    transition: all .3s;
+    text-decoration: none;
+}
+.footer-login:hover{
+    color: var(--color-primary);
+}
+.footer-login p{
+    font-size: 1.5rem;
+    
+}
+.footer-login .footer-login-icon {
+    font-size: 3rem;
+    text-decoration: none;
+}

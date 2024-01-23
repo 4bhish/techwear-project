@@ -1,0 +1,113 @@
+.loginpage{
+    width: 40%;
+    margin: 7rem auto;
+}
+.loginpage-logoContainer{
+    margin-bottom: 2rem;
+}
+.loginpage-logoContainer svg{
+    fill: var(--color-primary);
+}
+
+.loginpage-heading h1{
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+}
+.loginpage-heading p{
+    color: var(--color-grey);
+    font-size: 1.7rem;
+    font-weight: 500;
+    line-height: 2.8rem;
+    margin-bottom: 2rem;
+}
+
+/* form contents */
+
+.loginpage-email-input{
+    margin: 2rem 0;
+}
+.loginpage-form label{
+    display: block;
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: var(--color-grey);
+    transition: color 0.3s;
+}
+
+.loginpage-form input {
+    width: 100%;
+    height: 3rem;
+    font-size: 1.8rem;
+    border: none;
+    border-bottom: 0.2rem solid var(--color-grey);
+    outline: none;
+}
+.loginpage-form input::placeholder{
+    color: var(--color-grey);
+    font-size: 1.5rem;
+}
+
+.loginpage-form input:focus {
+    border-bottom: 0.2rem solid var(--color-primary);
+}
+ 
+.loginpage-email-input:focus-within label {
+    color: var(--color-primary);
+}
+
+.loginpage-password-input{
+    margin-bottom: 3rem;
+}
+
+.loginpage-password-input:focus-within label {
+    color: var(--color-primary);
+}
+
+/* Button-container  */
+.loginpage-btn-container{
+    margin: 3rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+}
+
+.loginpage-btn-container p{
+    flex: 0.5;
+    color: var(--color-grey);
+    font-size: 1.5rem;
+    font-weight: 550;
+}
+.loginpage-paragraph span{
+    color: var(--color-secondary);
+    cursor: pointer;
+    transition: color .3s;
+}
+.loginpage-paragraph span:hover{
+    color: var(--secondary-dark); 
+}
+
+.loginpage-btn-container button{
+    flex: 0.2;
+    height: 5rem;
+    font-size: 1.5rem;
+    border: none;
+    background-color: var(--color-secondary);
+    color: white;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color .3s;
+}
+
+.loginpage-btn-container button:hover{
+    background-color: var(--secondary-dark);
+}
+
+.loginpage-signup-headline .loginpage-paragraph{
+    text-align: center;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+}

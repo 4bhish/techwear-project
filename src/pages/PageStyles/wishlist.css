@@ -1,0 +1,20 @@
+.wishlist-page{
+    width: 100%;
+    margin: 3rem auto;
+
+}
+.wishlist-page .my-wishlist-heading {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.wishlist-heading{
+    text-align: center;
+    font-size: 2.5rem;
+    letter-spacing: 0.2rem;
+}
+.wishlist-container{
+    width: 30%;
+    margin: 5rem auto;
+}

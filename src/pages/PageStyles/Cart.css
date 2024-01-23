@@ -1,0 +1,98 @@
+.cart-page{
+    margin: 3rem auto;
+}
+.cart-page .cart-page-heading {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+.empty-heading{
+    text-align: center;
+    font-size: 2.5rem;
+    letter-spacing: 0.2rem;
+}
+.cart-container{
+    display: flex;
+    margin: 3rem 0;
+    gap: 3rem;
+    justify-content: center;
+}
+.cart-container .cart-list{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.discount-price{
+    text-align: center;
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
+    color: #12ad12;
+}
+/* Bill */
+
+.cart-bill-wrap{
+    position: fixed;
+    right: 15%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    height: 35rem;
+    width: 25rem;
+}
+.cart-bill-container{
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.cart-bill-container .price-details-bill{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    padding: 1.2rem;
+    border-top: 0.1px solid lightgray;
+    border-bottom: 0.1px solid lightgray;
+    margin-bottom: 1rem;
+}
+.bill-calc {
+    border-bottom: 0.1px solid var(--color-grey);
+    margin-bottom: 2rem;
+}
+.bill-calc div,.bill-total{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+.bill-total{
+    padding-bottom: 1.5rem;
+    border-bottom: 0.1px solid var(--color-grey);
+}
+.bill-calc div p,
+.bill-total p{
+    font-size: 1.4rem;
+}
+.bill-total p{
+    font-weight: bold;
+}
+
+/* button */
+.cart-bill-container .checkout-btn:last-of-type{
+    height: 3rem;
+    cursor: pointer;
+    background: none;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    border: 0.2rem solid var( --secondary-dark);
+    color: var(--secondary-dark);
+    transition: all .3s;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.cart-bill-container .checkout-btn:last-of-type:hover{
+    color: white;
+    background: var(--secondary-dark);
+}
