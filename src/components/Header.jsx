@@ -1,6 +1,6 @@
 import React from 'react';
 import headerbg from '../assets/headerbg.png'
-import './styles/header.css'
+import './styles/Header.css'
 import { Link } from 'react-router-dom';
 
 function Header() {
