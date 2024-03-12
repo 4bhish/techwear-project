@@ -24,6 +24,5 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - CSS
 - HTML5
 - nodeJS
-- 
 ## Deployment
 Deployed using Vercel
