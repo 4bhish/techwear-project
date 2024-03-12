@@ -64,3 +64,29 @@
     background-color: var(--secondary-dark);
     border: 0.2rem solid var(--secondary-dark) ;
 }
+
+@media screen and (max-width: 768px) {
+    .header{
+        height: 50vh;
+        width: 100%;
+    }
+    .header-container {
+        width: 90%; 
+        height: 100%;
+    }
+    .header-left{
+        max-width: 100%;
+        justify-content: space-evenly;
+    }
+    .header-left h1 {
+        font-size: 4rem; /* Adjusted font size for smaller screens */
+    }
+
+    .header-left p {
+        font-size: 1.5rem; /* Adjusted font size for smaller screens */
+    }
+
+    .header-right {
+        display: none; /* Hide image on smaller screens */
+    }
+}

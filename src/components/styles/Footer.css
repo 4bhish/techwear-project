@@ -91,3 +91,70 @@
     font-size: 3rem;
     text-decoration: none;
 }
+
+@media screen and (max-width: 768px) {
+    .footer-container{
+        width: 100%;
+        padding: 1rem;
+        height: auto;
+        justify-content: space-evenly;
+        flex: 1;
+       
+}
+.footer-para{
+    flex: 0.5;
+}
+    .footer-para h3{
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.footer-para p{
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+.footer-para p span{
+    color: var(--color-primary);
+    font-size: 1rem;
+}
+.footer-para p:first-of-type{
+    margin-top: 1rem;
+}
+.footer-para small{
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+}
+
+.footer-connect h3{
+    font-size: 1.4rem; 
+    font-weight: 500;
+}
+
+.social-connect p{
+    font-size: 1.2rem;
+}
+
+.social-connect .social-connect-icon{
+    font-size: 1.5rem;
+}
+.footer-connect .social-connect{
+    gap: .5rem;
+    margin-top: 1rem;
+}
+.footer-resource h3{
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+
+
+.footer-login p{
+    font-size: 1.2rem;
+    
+}
+.footer-login .footer-login-icon {
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+}

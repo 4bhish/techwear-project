@@ -110,3 +110,136 @@
     padding: 20px;
   }
 
+
+  .toggle-filters{
+    display: none;
+    font-size: 1.5rem;
+    text-decoration: underline;
+    margin: 1rem  0;
+    cursor: pointer;
+  }
+@media screen and  (max-width: 768px){
+    .productspage{
+        justify-content: space-between;
+        flex-grow: 1;
+        margin: 0 auto;
+    }
+    .filter-section{
+        display: none;
+        width: 20%;
+        height: 100vh;
+        position: relative;
+        left: auto;
+        right: auto;
+    }
+
+    .products-container{
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .toggle-filters{
+        display: block;
+      }
+      .products-list{
+        flex-direction: column;
+        margin: 0 auto;
+    }
+   /* mobile filter */
+ 
+  /* Styling for the filter drawer */
+.drawer-filter-section {
+    height: 100vh;
+    width: 300px; /* Adjust width as needed */
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+  }
+  
+  /* Styling for filter container */
+  .drawer-filter-container {
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for filter section headings */
+  .drawer-filter-section-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .drawer-filter-section-heading h3 {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .drawer-filter-section-heading p {
+    font-size: 14px;
+    margin: 0;
+    cursor: pointer;
+    color: blue; /* Change color as needed */
+  }
+  
+  .drawer-filter-section-heading p:hover {
+    text-decoration: underline;
+  }
+  
+  /* Styling for price section */
+  .drawer-price-section h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .drawer-price-section input[type='range'] {
+    width: 100%;
+  }
+  
+  /* Styling for category section */
+  .drawer-category-section h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .drawer-category-section label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px; /* Increased font size for labels */
+  }
+  
+  .drawer-category-section input[type='checkbox'] {
+    font-size: 16px; /* Increased font size for inputs */
+  }
+  
+  /* Styling for ratings section */
+  .drawer-ratings-section h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .drawer-ratings-section label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px; /* Increased font size for labels */
+  }
+  
+  .drawer-ratings-section input[type='radio'] {
+    font-size: 16px; /* Increased font size for inputs */
+  }
+  
+  /* Styling for sort filter section */
+  .drawer-sort-filter-section h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .drawer-sort-filter-section select {
+    width: 100%;
+    padding: 5px;
+    font-size: 16px; /* Increased font size for select dropdown */
+  }
+  
+  
+}

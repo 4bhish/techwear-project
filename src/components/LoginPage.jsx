@@ -41,7 +41,7 @@ export default function LoginPage() {
       setUser(userData);
       navigate(location?.state?.from?.pathname);
     } catch (e) {
-      console.error(e);
+      alert(e.message);
     }
     setFormData({
       fullName: "",
@@ -62,7 +62,7 @@ export default function LoginPage() {
       setUser(userData);
       navigate(location?.state?.from?.pathname);
     } catch (e) {
-      console.error(e);
+      alert(e.message);
     }
     setFormData({
       fullName: "",

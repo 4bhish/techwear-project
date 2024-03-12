@@ -52,3 +52,19 @@
 }
 
 
+@media screen and (max-width: 768px) {
+    
+
+    .navbar-link h4 {
+        font-size: 1.2rem;
+    }
+
+    .navbar-link svg {
+        width: 4rem; 
+        height: 4rem; 
+    }
+
+    .navbar-menus .options {
+        font-size: 2rem; 
+    }
+}

@@ -174,3 +174,14 @@
     /* Add styling for your main content here */
     padding: 20px;
   }
+
+
+  @media screen and (max-width: 768px) {
+    .order-details{
+        flex: 1;
+    }
+    .checkout-container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}

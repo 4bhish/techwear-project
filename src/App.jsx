@@ -4,7 +4,7 @@ import React, { useContext, useEffect } from "react";
 import { Route, Routes } from "react-router";
 import { ToastContainer } from "react-toastify";
 import { AuthProvider } from "./context/AuthContext";
-import { getMessaging, getToken } from "firebase/messaging";
+
 
 import Homepage from "./pages/Homepage";
 import Wishlist from "./pages/Wishlist";
@@ -16,40 +16,12 @@ import CheckoutReq from "./components/CheckoutReq";
 import Checkout from "./pages/Checkout";
 import LoginPage from "./components/LoginPage";
 import Navbar from "./components/Navbar";
-import { messaging } from './firebaseConfig';
-
-
 
 
 
 function App() {
-  const {user} = useContext(AuthProvider)
 
-  const getReqPermission = async () =>{
-
-    try{
-      const res = await Notification.requestPermission()
-      if(res === 'granted'){
-        // 
-       const tokenRes = await getToken(messaging , {vapidKey:'BMK98MnWiMTxmmW62nPNdHiHQoZLZrB_SRHhlLaEBELuCajR5TCVpbShBlZUsrODWBbwfZnh5zDKSspNQ2k6-tM'})
-
-       console.log('token', tokenRes)
-
-      }else if(res === 'default'){
-
-      } else if(res === 'denied'){
-        alert('notitifaction denied')
-      }
-    }
-    catch(e){
-      console.error(e)
-    }
-
-  }
-
-  useEffect(() => {
-    getReqPermission()
-  },[])
+  
 
   return (
     <>
@@ -70,7 +42,7 @@ function App() {
             <AuthReq>
               <Cart />
             </AuthReq>
-          }
+          } 
         />
         <Route
           path="/account-details"
